@@ -1,0 +1,8 @@
+#ignore files with . prefix
+*.
+
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+
+# ignore all files in any directory named build
+build/
