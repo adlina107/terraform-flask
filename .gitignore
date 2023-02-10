@@ -10,3 +10,17 @@ doc/*.txt
 
 # ignore all files that start with .
 *.
+
+echo ".cache" >> .gitignore
+echo ".config" >> .gitignore
+echo ".docker" >> .gitignore
+echo ".terraform" >> .gitignore
+echo ".terraform.d" >> .gitignore
+echo ".terraform.lock.hcl" >> .gitignore
+echo ".theia" >> .gitignore
+echo ".bash_history" >> .gitignore
+echo ".bash_logout" >> .gitignore
+echo ".bashrc" >> .gitignore
+echo ".gitconfig" >> .gitignore
+echo ".mysql_history" >> .gitignore
+echo ".profile" >> .gitignore
